@@ -2,8 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Preparation
+Before start, please visit the following page, register/login and get the key first: 
+ https://rapidapi.com/ytdlfree/api/youtube-v31?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel
 
+Save your X-RapidAPI-Key to clipboard, open project, in root directory, create a file .env and update its content: 
+REACT_APP_RAPID_API_KEY=your_X-RapidAPI-Key
+
+Then save it, please make sure there is no semicolon at the end.
+
+## Available Scripts
 In the project directory, you can run:
 
 ### `npm start`
